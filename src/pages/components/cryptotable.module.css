@@ -1,0 +1,73 @@
+.centered {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; 
+}
+
+.cryptoTable {
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cryptoTable h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.mainTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.mainTable th,
+.mainTable td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.mainTable th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.mainTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.historicalPrices {
+  margin-top: 20px;
+}
+
+.priceTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.priceTable th,
+.priceTable td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.priceTable th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.priceTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.cryptoImage {
+  width: auto;
+  height: 25px; 
+  margin-right: 10px; 
+}

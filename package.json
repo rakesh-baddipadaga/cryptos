@@ -6,19 +6,30 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "start-cron": "ts-node utils/cronjob.ts",
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.2.6",
+    "@types/redux-persist": "^4.3.1",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.5.1",
+    "next": "14.2.5",
+    "node-cron": "^3.0.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "react-redux": "^9.1.2",
+    "redux-persist": "^6.0.0",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
+    "@types/node": "^20.14.10",
+    "@types/node-cron": "^3.0.11",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.5"
+    "eslint-config-next": "14.2.5",
+    "typescript": "^5.5.3"
   }
 }
